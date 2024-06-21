@@ -4,6 +4,17 @@ updates:
     directory: "/"
     schedule:
       interval: daily
-      time: "14:00"
+      time: "16:30"
     commit-message:
       prefix: "composer"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "16:30"
+    commit-message:
+      prefix: "npm"
