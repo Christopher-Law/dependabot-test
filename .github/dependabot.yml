@@ -18,3 +18,7 @@ updates:
       time: "16:30"
     commit-message:
       prefix: "npm"
+    groups:
+      all:
+        patterns:
+          - "*"
